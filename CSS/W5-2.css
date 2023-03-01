@@ -1,0 +1,311 @@
+div{
+    box-sizing: border-box;
+}
+
+.MainBackground{
+    width: 375px;
+    height: 1250px;
+    background-color: hsl(0, 0%, 81%);
+    text-indent: -9999px;
+    position: absolute;
+    z-index: -1;
+}
+
+.Cards{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 270px;
+    grid-template-rows: 380px 380px 380px;
+    /* gap: 30px 30px; */
+}
+
+.BrightOrange{
+    background-color: hsl(31, 77%, 52%);
+    /* width: 360px;
+    height: 190px; */
+    grid-area: 1/1/2/1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* border-top: 3px solid red;  */
+    /* position: relative; 
+    z-index: ;  */
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.134) */
+}
+
+.BrightOrangeMain{
+    display: flex; 
+    flex-direction: column;
+    align-items: normal;
+    flex-wrap: nowrap; 
+    position: absolute;
+    z-index: 1;
+}
+
+.BrightOrangeImage{
+    width: 55px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+    border-radius: 18px;
+}
+
+.BrightOrangeTxt1{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    text-align: unset;
+    position: relative;
+    z-index: 3;
+    left: 40px;
+    top: 35px;
+}
+
+.BrightOrangeTxt2{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #ffffffc9;
+    text-align: unset;
+    position: relative;
+    z-index: 4;
+    left: 40px;
+    top: 25px;
+}
+
+.BrightOrangeContainer{
+    width: 128px;
+    height: 42px;
+    background-color: white;
+    border-radius: 32px;
+    z-index: 5;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    outline: 2px solid white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.BrightOrangeContainer:hover{
+    background-color: transparent;
+}
+
+.BrightOrangeTxt3{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 0.88rem;
+    color: hsl(31, 77%, 52%);
+    text-align: unset;
+    position: relative;
+    z-index: 6;
+    left: 28px;
+    top: 12px;
+}
+
+.BrightOrangeTxt3:hover{
+    color: white;
+}
+
+.DarkCyan{
+    background-color: hsl(184, 100%, 22%);
+    /* width: 360px;
+    height: 190px; */
+    grid-area: 2/1/3/1;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    /* border-top: 3px solid red;  */
+    /* position: relative; 
+    z-index: ;  */
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.134) */
+}
+
+.DarkCyanMain{
+    display: flex; 
+    flex-direction: column;
+    align-items: normal;
+    flex-wrap: nowrap; 
+    position: absolute;
+    z-index: 1;
+}
+
+.DarkCyanImage{
+    width: 55px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+    border-radius: 18px;
+}
+
+.DarkCyanTxt1{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    text-align: unset;
+    position: relative;
+    z-index: 3;
+    left: 40px;
+    top: 35px;
+}
+
+.DarkCyanTxt2{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #ffffffc9;
+    text-align: unset;
+    position: relative;
+    z-index: 4;
+    left: 40px;
+    top: 25px;
+}
+
+.DarkCyanContainer{
+    width: 128px;
+    height: 42px;
+    background-color: white;
+    border-radius: 32px;
+    z-index: 5;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    outline: 2px solid white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.DarkCyanContainer:hover{
+    background-color: transparent;
+}
+
+.DarkCyanTxt3{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 0.88rem;
+    color: hsl(184, 100%, 22%);
+    text-align: unset;
+    position: relative;
+    z-index: 6;
+    left: 28px;
+    top: 12px;
+}
+
+.DarkCyanTxt3:hover{
+    color: white;
+}
+
+.VeryDarkCyan{
+    background-color: hsl(179, 100%, 13%);
+    /* width: 360px;
+    height: 190px; */
+    grid-area: 3/1/4/1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-top: 3px solid red;  */
+    /* position: relative; 
+    z-index: ;  */
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.134) */
+}
+
+.VeryDarkCyanMain{
+    display: flex; 
+    flex-direction: column;
+    align-items: normal;
+    flex-wrap: nowrap; 
+    position: absolute;
+    z-index: 1;
+}
+
+.VeryDarkCyanImage{
+    width: 55px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+    border-radius: 18px;
+}
+
+.VeryDarkCyanTxt1{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    text-align: unset;
+    position: relative;
+    z-index: 3;
+    left: 40px;
+    top: 35px;
+}
+
+.VeryDarkCyanTxt2{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #ffffffc9;
+    text-align: unset;
+    position: relative;
+    z-index: 4;
+    left: 40px;
+    top: 25px;
+}
+
+.VeryDarkCyanContainer{
+    width: 128px;
+    height: 42px;
+    background-color: white;
+    border-radius: 32px;
+    z-index: 5;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    outline: 2px solid white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.VeryDarkCyanContainer:hover{
+    background-color: transparent;
+}
+
+.VeryDarkCyanTxt3{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 0.88rem;
+    color: hsl(179, 100%, 13%);
+    text-align: unset;
+    position: relative;
+    z-index: 6;
+    left: 28px;
+    top: 12px;
+}
+
+.VeryDarkCyanTxt3:hover{
+    color: white;
+}
